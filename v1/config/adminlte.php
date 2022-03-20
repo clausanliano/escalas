@@ -225,6 +225,12 @@ return [
     */
 
     'menu' => [
+        [
+            'text' => 'Empresas',
+            'url'  => 'empresas',
+            'icon'        => 'fa fa-university',
+        ],
+        /*
         // Navbar items:
         [
             'type'         => 'navbar-search',
@@ -318,6 +324,7 @@ return [
             'icon_color' => 'cyan',
             'url'        => '#',
         ],
+        */
     ],
 
     /*

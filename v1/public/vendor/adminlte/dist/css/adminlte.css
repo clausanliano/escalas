@@ -5092,7 +5092,7 @@ input[type="button"].btn-block {
   color: #6c757d;
 }
 
-.pagination {
+. {
   display: -ms-flexbox;
   display: flex;
   padding-left: 0;
@@ -5151,34 +5151,34 @@ input[type="button"].btn-block {
   border-color: #dee2e6;
 }
 
-.pagination-lg .page-link {
+.-lg .page-link {
   padding: 0.75rem 1.5rem;
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
-.pagination-lg .page-item:first-child .page-link {
+.-lg .page-item:first-child .page-link {
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
 }
 
-.pagination-lg .page-item:last-child .page-link {
+.-lg .page-item:last-child .page-link {
   border-top-right-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
 }
 
-.pagination-sm .page-link {
+.-sm .page-link {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
 }
 
-.pagination-sm .page-item:first-child .page-link {
+.-sm .page-item:first-child .page-link {
   border-top-left-radius: 0.2rem;
   border-bottom-left-radius: 0.2rem;
 }
 
-.pagination-sm .page-item:last-child .page-link {
+.-sm .page-item:last-child .page-link {
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
 }
@@ -21263,11 +21263,11 @@ body.text-sm .control-sidebar {
   color: #fff;
 }
 
-.pagination-month .page-item {
+.-month .page-item {
   justify-self: stretch;
 }
 
-.pagination-month .page-item .page-link {
+.-month .page-item .page-link {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -21279,26 +21279,26 @@ body.text-sm .control-sidebar {
   box-shadow: none;
 }
 
-.pagination-month .page-item:first-child .page-link, .pagination-month .page-item:last-child .page-link {
+.-month .page-item:first-child .page-link, .-month .page-item:last-child .page-link {
   height: 100%;
   font-size: 1.25rem;
 }
 
-.pagination-month .page-item .page-month {
+.-month .page-item .page-month {
   margin-bottom: 0;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-.pagination-month .page-item .page-year {
+.-month .page-item .page-year {
   margin-bottom: 0;
 }
 
-.pagination-month.pagination-lg .page-month {
+.-month.-lg .page-month {
   font-size: 1.5625rem;
 }
 
-.pagination-month.pagination-sm .page-month {
+.-month.-sm .page-month {
   font-size: 1rem;
 }
 
@@ -28772,7 +28772,7 @@ html.maximized-card {
 
 .card-header > .card-tools .input-group,
 .card-header > .card-tools .nav,
-.card-header > .card-tools .pagination {
+.card-header > .card-tools . {
   margin-bottom: -0.3rem;
   margin-top: -0.3rem;
 }
