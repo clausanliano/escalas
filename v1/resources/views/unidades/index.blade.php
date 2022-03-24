@@ -43,6 +43,8 @@
                     <tr>
                         <th>Nome</th>
                         <th>Sigla</th>
+                        <th>Unidade Superior</th>
+                        <th>Empresa</th>
                         <th>Ações</th>
                     </tr>
                 </thead>
@@ -51,6 +53,12 @@
                         <tr>
                             <td>{{ $item->nome }}</td>
                             <td>{{ $item->sigla }}</td>
+                            @if ($item->unidade_superior)
+                                <td>{{ $item->unidade_superior->sigla }}</td>
+                            @else
+                                <td>&nbsp;</td>
+                            @endif
+                            <td>{{ $item->empresa->sigla }}</td>
                             <td class="col-2">
                                 <div class="btn-group" role="group">
                                     <a class="btn btn-sm btn-primary mr-2" href="{{ route($prefixo_rota.'.show', $item) }}">
